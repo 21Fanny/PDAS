@@ -1,5 +1,5 @@
 function ProfileCard(props) {
-    console.log(props)
+    console.log(props.title)
     return (
         <div> Profile Card</div>
     )
