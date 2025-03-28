@@ -1,4 +1,4 @@
-import ProfileCard from "./assets/ProfileCard"
+import ProfileCard from "./ProfileCard"
 function App() {
 
   return (
@@ -14,7 +14,11 @@ function App() {
   <section className="section">
     <div className="alexa">
       <div className="@alexa24">
-        <ProfileCard />
+        <ProfileCard
+          title="Alexa"
+          image="https://play-lh.googleusercontent.com/xxZON2rN4_dRDrB0Szsq6NkYGnoXBPkKGoR4rMlWaqssoHegL_hFIw54b4beHoGtdDk"
+          handle="Alexa@99" 
+        />
       </div>
       <div className="column is-4">
         <ProfileCard />
